@@ -20,7 +20,7 @@ You can install the released version of iiptreviewer from
 [GitHub](https://github.com/) with:
 
 ``` r
-devtools::install_github("benediktclaus/iiptreviewer")
+devtools::install_github("pedscience/iiptreviewer")
 ```
 
 ## Dataset
