@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # iiptreviewer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/pedscience/iiptreviewer/workflows/R-CMD-check/badge.svg)](https://github.com/pedscience/iiptreviewer/actions)
 <!-- badges: end -->
 
 The goal of iiptreviewer is to make the underlying data as accessible as possible to reproduce the analyses or use them for one's own research.
