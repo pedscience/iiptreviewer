@@ -12,10 +12,8 @@ Authors@R: c(person("Benedikt B.", "Claus",
               person("Boris", "Zernikow",
                   email = "b.zernikow@pedscience.de",
                   role = "aut"))
-Description: This package mainly contains the underlying data for the Intensive
-    Interdisciplinary Pain Treatment review and meta-analysis published by 
-    Claus et al. (2021). It further contains helper functions for the analysis
-    script.
+Description: Data and helper function for the Intensive Interdisciplinary Pain 
+    Treatment review and meta-analysis published by Claus et al. (2021).
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
