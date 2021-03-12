@@ -13,3 +13,7 @@ add_comparison_id(data)
 Add a comparison ID (\code{comparison_id}) to keep track of studies in case of
 identical \code{study_label}
 }
+\examples{
+iipt_dataset \%>\%
+  add_comparison_id()
+}

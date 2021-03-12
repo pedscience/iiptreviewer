@@ -8,6 +8,10 @@
 #' @param data A data frame containing data for a meta-analysis
 #'
 #' @export
+#'
+#' @examples
+#' iipt_dataset %>%
+#'   add_comparison_id()
 add_comparison_id <- function(data) {
   data %>%
     mutate(comparison_id = as.character(row_number()))
