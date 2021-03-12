@@ -1,9 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# iiptreviewer
+# iiptreviewer <img src="man/figures/logo.png" width = "160" align="right"/>
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/pedscience/iiptreviewer/workflows/R-CMD-check/badge.svg)](https://github.com/pedscience/iiptreviewer/actions)
 <!-- badges: end -->
 
 The goal of iiptreviewer is to make the underlying data as accessible as
