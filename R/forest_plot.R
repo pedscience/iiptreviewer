@@ -3,13 +3,13 @@
 #' Forst plots for given data and rma object.
 #'
 #' @importFrom metafor weights.rma.mv
-#' @importFrom benelib to_tibble
 #' @importFrom dplyr rename left_join select arrange summarise if_else starts_with desc across
 #' @importFrom broom tidy glance
 #' @importFrom stringr str_glue
 #' @importFrom ggtext geom_richtext
 #' @importFrom ggplot2 geom_text annotate geom_errorbarh geom_segment scale_size_continuous theme_void unit element_line element_text
 #' @importFrom patchwork plot_layout plot_annotation
+#' @importFrom tibble rownames_to_column
 #'
 #' @param data A dataframe containing the data
 #' @param rma_object An object of class `rma.mv`
@@ -29,7 +29,9 @@ forest_plot <- function(data, rma_object, plot_title = NA) {
   # only relevant variables and add an id for plotting
   weights <- rma_object %>%
     weights.rma.mv() %>%
-    to_tibble("comparison_id") %>%
+    as.data.frame() %>%
+    rownames_to_column(var = "comparison_id") %>%
+    as_tibble() %>%
     rename(study_weight = ".")
 
   preprocessed_data <- data %>%
