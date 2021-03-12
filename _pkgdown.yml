@@ -1,0 +1,34 @@
+home:
+  title: An R package for the IIPT meta-analysis
+  description: Data and custom functions for the paper by Claus et al. (2021)
+
+template:
+  params:
+    bootswatch: lumen
+
+authors:
+  Benedikt B. Claus:
+    href: "https://www.benediktclaus.com/"
+  Boris Zernikow:
+    href: "https://www.uni-wh.de/detailseiten/kontakte/boris-zernikow-1900/f0/"
+  Julia Wager:
+    href: "https://www.uni-wh.de/gesundheit/department-fuer-humanmedizin/lehrstuehle-institute-und-zentren/lehrstuhl-fuer-kinderschmerztherapie-und-paediatrische-palliativmedizin/"
+
+reference:
+- title: "Dataset"
+- contents:
+  - iipt_dataset
+- title: "Plotting functions"
+- contents:
+  - contains("plot")
+- title: "Calculation functions"
+- contents:
+  - contains("calc")
+  - meta_analysis_without
+- title: "Tidiers"
+- contents:
+  - contains("ext")
+- title: "Miscellaneous Helpers"
+- contents:
+  - batch_save
+  - add_comparison_id

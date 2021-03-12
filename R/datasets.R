@@ -1,0 +1,40 @@
+#' IIPT Meta-Analysis Dataset
+#'
+#' All effect sizes for the IIPT review and meta-analysis in a tidy dataframe.
+#'
+#' @format A [tibble][tibble::tibble-package] with 161 rows and 27 columns
+#'
+#' \describe{
+#'     \item{study_id}{Study ID}
+#'     \item{study_label}{Study Label}
+#'     \item{year}{Year Published}
+#'     \item{intervention_id}{Intervention ID}
+#'     \item{country}{Country}
+#'     \item{domain}{Outcome Domain}
+#'     \item{description}{Outcome Description}
+#'     \item{instrument}{Outcome Instrument}
+#'     \item{outcome}{Outcome}
+#'     \item{type}{Study Type}
+#'     \item{analysis_time}{Analysis Comparison Time}
+#'     \item{time_1}{Time 1}
+#'     \item{time_2}{Time 2}
+#'     \item{mean_1}{Mean 1}
+#'     \item{mean_2}{Mean 2}
+#'     \item{sd_1}{SD 1}
+#'     \item{sd_2}{SD 2}
+#'     \item{n_pairs}{Number of Pairs}
+#'     \item{n_1}{n 1}
+#'     \item{n_2}{n 2}
+#'     \item{correlation}{Correlation}
+#'     \item{g}{Hedges' g}
+#'     \item{var_g}{Variance of g}
+#'     \item{se_g}{SE of g}
+#'     \item{r}{Effect size r}
+#'     \item{var_r}{Variance of r}
+#'     \item{se_r}{SE of r}
+#' }
+"iipt_dataset"
+
+
+
+
