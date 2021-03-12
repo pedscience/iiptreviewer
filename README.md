@@ -8,8 +8,11 @@
 [![R-CMD-check](https://github.com/pedscience/iiptreviewer/workflows/R-CMD-check/badge.svg)](https://github.com/pedscience/iiptreviewer/actions)
 <!-- badges: end -->
 
-The goal of iiptreviewer is to make the underlying data as accessible as
-possible to reproduce the analyses or use them for one’s own research.
+The goal of iiptreviewer is to make the underlying data for the
+systematic review and meta-analysis regarding Intensive
+Interdisciplinary Pain Treatmen for children and adolescents with
+chronic pain as accessible as possible to reproduce the analyses or use
+them for one’s own research.
 
 ## Installation
 
@@ -20,9 +23,9 @@ You can install the released version of iiptreviewer from
 devtools::install_github("benediktclaus/iiptreviewer")
 ```
 
-## Example
+## Dataset
 
-This is a basic example which shows you how to solve a common problem:
+The dataset can be loaded with:
 
 ``` r
 library(iiptreviewer)
