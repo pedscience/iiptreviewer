@@ -1,7 +1,7 @@
 Package: iiptreviewer
 Type: Package
 Title: Data for the IIPT Review and Meta-Analysis
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: c(person("Benedikt B.", "Claus", 
                   email = "b.claus@pedscience.de", 
                   role = c("cre", "aut"), 
