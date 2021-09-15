@@ -1,7 +1,7 @@
 library(tidyverse)
 library(labelled)
 
-iipt_dataset <- read_rds("data-raw/complete_effect_sizes.rds") %>%
+iipt_dataset <- read_rds("data-raw/complete-effect-sizes.rds") %>%
   set_variable_labels(
     study_id = "Study ID",
     study_label = "Study Label",
