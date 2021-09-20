@@ -16,7 +16,7 @@ plot_trajectory_logan <- function(data, analysis_title) {
     geom_errorbar(aes(ymin = ci_lb, ymax = ci_ub), width = 0.1, size = 1) +
     geom_point(aes(size = k, color = i_2_total)) +
     geom_hline(yintercept = 0) +
-    scale_x_discrete(limits = c("post", "fu", "fu4", "fu6", "fu12"), labels = c("Post", "FU 1-3", "FU 4", "FU 6", "FU 12")) +
+    scale_x_discrete(limits = c("post", "fu", "fu4", "fu6", "fu12", "fu48"), labels = c("Post", "FU 1-3", "FU 4", "FU 6", "FU 12", "FU 48")) +
     scale_size_identity(breaks = c(1, 3, 6, 9), guide = "legend") +
     scale_color_viridis_c(option = "A", limits = c(0, 1), na.value = "grey80", labels = scales::percent) +
     expand_limits(y = c(-3, 3)) +

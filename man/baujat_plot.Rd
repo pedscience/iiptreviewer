@@ -34,11 +34,11 @@ baujat_plot(
 
 \item{cex}{optional character expansion factor. If unspecified, the function tries to set this to a sensible value.}
 
-\item{symbol}{either an integer to specify the \code{pch} value (i.e., plotting symbol), or \code{"slab"} to plot the study labels (if specified), or \code{"ids"} to plot the study id numbers (if unspecified, this is the default).}
+\item{symbol}{either an integer to specify the \code{pch} value (i.e., plotting symbol), or \code{"slab"} to plot the study labels, or \code{"ids"} (the default) to plot the study id numbers.}
 
-\item{grid}{logical indicating whether a grid should be added to the plot (can also be a color name).}
+\item{grid}{logical to specify whether a grid should be added to the plot (can also be a color name).}
 
-\item{progbar}{logical indicating whether a progress bar should be shown (the default is \code{FALSE}).}
+\item{progbar}{logical to specify whether a progress bar should be shown (the default is \code{FALSE}).}
 
 \item{plot_title}{A string, the plot title}
 
