@@ -5,7 +5,7 @@
 \alias{iipt_dataset}
 \title{IIPT Meta-Analysis Dataset}
 \format{
-A \link[tibble:tibble-package]{tibble} with 161 rows and 27 columns
+A \link[tibble:tibble-package]{tibble} with 167 rows and 27 columns
 
 \describe{
 \item{study_id}{Study ID}

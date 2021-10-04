@@ -2,7 +2,7 @@
 #'
 #' All effect sizes for the IIPT review and meta-analysis in a tidy dataframe.
 #'
-#' @format A [tibble][tibble::tibble-package] with 161 rows and 27 columns
+#' @format A [tibble][tibble::tibble-package] with 167 rows and 27 columns
 #'
 #' \describe{
 #'     \item{study_id}{Study ID}
