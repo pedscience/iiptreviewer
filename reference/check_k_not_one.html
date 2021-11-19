@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Baujat Plots — baujat_plot • iiptreviewer</title>
+<title>Check If k Is Not Equal To 1 In All Cases — check_k_not_one • iiptreviewer</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,11 @@
 
 
 
-<meta property="og:title" content="Baujat Plots — baujat_plot" />
-<meta property="og:description" content="Baujat plots to identify potential study outliers." />
+<meta property="og:title" content="Check If k Is Not Equal To 1 In All Cases — check_k_not_one" />
+<meta property="og:description" content="This is a helper function needed to plot trajectories of outcomes. If for an
+outcome (including all measurements) the number of studies (k) per
+measurement is only 1, it should not be used to plot the results because this
+plots should only include meta-analytic summary effects." />
 <meta property="og:image" content="https://pedscience.github.io/iiptreviewer/logo.png" />
 
 
@@ -111,81 +114,32 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Baujat Plots</h1>
+    <h1>Check If k Is Not Equal To 1 In All Cases</h1>
     
-    <div class="hidden name"><code>baujat_plot.Rd</code></div>
+    <div class="hidden name"><code>check_k_not_one.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Baujat plots to identify potential study outliers.</p>
+    <p>This is a helper function needed to plot trajectories of outcomes. If for an
+outcome (including all measurements) the number of studies (k) per
+measurement is only 1, it should not be used to plot the results because this
+plots should only include meta-analytic summary effects.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>baujat_plot</span><span class='op'>(</span>
-  <span class='va'>x</span>,
-  <span class='va'>xlim</span>,
-  <span class='va'>ylim</span>,
-  <span class='va'>xlab</span>,
-  <span class='va'>ylab</span>,
-  <span class='va'>cex</span>,
-  <span class='va'>symbol</span>,
-  grid <span class='op'>=</span> <span class='cn'>TRUE</span>,
-  progbar <span class='op'>=</span> <span class='cn'>FALSE</span>,
-  <span class='va'>plot_title</span>,
-  <span class='va'>...</span>
-<span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>check_k_not_one</span><span class='op'>(</span><span class='va'>data</span><span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>x</th>
-      <td><p>an object of class <code>"rma"</code>.</p></td>
-    </tr>
-    <tr>
-      <th>xlim</th>
-      <td><p>x-axis limits. If unspecified, the function tries to set the x-axis limits to some sensible values.</p></td>
-    </tr>
-    <tr>
-      <th>ylim</th>
-      <td><p>y-axis limits. If unspecified, the function tries to set the y-axis limits to some sensible values.</p></td>
-    </tr>
-    <tr>
-      <th>xlab</th>
-      <td><p>title for the x-axis. If unspecified, the function tries to set an appropriate axis title.</p></td>
-    </tr>
-    <tr>
-      <th>ylab</th>
-      <td><p>title for the y-axis. If unspecified, the function tries to set an appropriate axis title.</p></td>
-    </tr>
-    <tr>
-      <th>cex</th>
-      <td><p>optional character expansion factor. If unspecified, the function tries to set this to a sensible value.</p></td>
-    </tr>
-    <tr>
-      <th>symbol</th>
-      <td><p>either an integer to specify the <code>pch</code> value (i.e., plotting symbol), or <code>"slab"</code> to plot the study labels, or <code>"ids"</code> (the default) to plot the study id numbers.</p></td>
-    </tr>
-    <tr>
-      <th>grid</th>
-      <td><p>logical to specify whether a grid should be added to the plot (can also be a color name).</p></td>
-    </tr>
-    <tr>
-      <th>progbar</th>
-      <td><p>logical to specify whether a progress bar should be shown (the default is <code>FALSE</code>).</p></td>
-    </tr>
-    <tr>
-      <th>plot_title</th>
-      <td><p>A string, the plot title</p></td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td><p>other arguments.</p></td>
+      <th>data</th>
+      <td><p>A dataframe with column <code>k</code></p></td>
     </tr>
     </table>
 
-    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p><a href='https://github.com/cran/metafor/blob/master/R/baujat.rma.r'>https://github.com/cran/metafor/blob/master/R/baujat.rma.r</a></p>
+    <p>Logical</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

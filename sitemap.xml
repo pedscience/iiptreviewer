@@ -19,6 +19,9 @@
     <loc>https://pedscience.github.io/iiptreviewer/reference/calc_meta_analysis.html</loc>
   </url>
   <url>
+    <loc>https://pedscience.github.io/iiptreviewer/reference/check_k_not_one.html</loc>
+  </url>
+  <url>
     <loc>https://pedscience.github.io/iiptreviewer/reference/ext_i_square.html</loc>
   </url>
   <url>
@@ -44,8 +47,5 @@
   </url>
   <url>
     <loc>https://pedscience.github.io/iiptreviewer/reference/plot_trajectory.html</loc>
-  </url>
-  <url>
-    <loc>https://pedscience.github.io/iiptreviewer/reference/plot_trajectory_logan.html</loc>
   </url>
 </urlset>
